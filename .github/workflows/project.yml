@@ -33,4 +33,4 @@ jobs:
          aws-region: eu-central-1
 
       - name: Copy files with the AWS CLI
-        run: aws S3 sync . s3://${{ secrets.AWS_S3_BUCKET_NAME }}
+        run: aws S3 sync dist s3://${{ secrets.AWS_S3_BUCKET_NAME }}
