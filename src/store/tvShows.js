@@ -28,7 +28,7 @@ export default defineStore("tvShows", {
     filteredTVShows: (state) => {
       const {searchBar, minRating, genres}  = state.filter;
       const tvShows = Array.from(state.tvShowsList.values());
-      if(!searchBar && !minRating && !genres.length) return tvShows;
+      if(!searchBar && !minRating && !genres.size) return tvShows;
       return tvShows.filter(tvShow => {
         const searchFilter = searchBar ? new RegExp(searchBar, "i").test(tvShow.name) : true;
         const minRatingFilter =  state.filter.minRating ? tvShow.rating.average >= state.filter.minRating : true;
