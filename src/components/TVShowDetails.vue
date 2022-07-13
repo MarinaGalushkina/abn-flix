@@ -19,7 +19,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
-  indow.removeEventListener("resize", resizeHandler);
+  window.removeEventListener("resize", resizeHandler);
 });
 </script>
 
