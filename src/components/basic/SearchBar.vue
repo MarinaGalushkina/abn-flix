@@ -1,6 +1,6 @@
 <script setup>
-defineProps(['text']);
-const emit = defineEmits(['update:text']);
+defineProps(["text"]);
+const emit = defineEmits(["update:text"]);
 let timerID;
 
 function debounceSearch(text) {

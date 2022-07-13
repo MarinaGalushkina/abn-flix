@@ -1,5 +1,5 @@
 <script setup>
-defineProps(['color', 'tagName']);
+defineProps(["color", "tagName"]);
 </script>
 
 <template>

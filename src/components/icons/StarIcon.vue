@@ -2,7 +2,7 @@
 defineProps({
   size: {
     type: String,
-    default: '25.09px'
+    default: "25.09px"
   },
   isFilled: {
     type: Boolean,

@@ -2,8 +2,8 @@
 import TVShowSlide from "@/components/TVShowSlide.vue";
 import Carousel from "@/components/basic/Carousel.vue";
 import Tag from "@/components/basic/Tag.vue";
-defineProps(['tvShowsByGenres', 'tvShowsList']);
-defineEmits(['show:details']);
+defineProps(["tvShowsByGenres", "tvShowsList"]);
+defineEmits(["show:details"]);
 </script>
 
 <template>

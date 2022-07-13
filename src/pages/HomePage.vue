@@ -5,7 +5,7 @@ import FilterResult from "@/components/FilterResult.vue";
 import GenresPreview from "@/components/GenresPreview.vue";
 import Preloader from "@/components/basic/Preloader.vue";
 import Error from "@/components/basic/Error.vue";
-import { useTVShowsStore } from '@/store';
+import { useTVShowsStore } from "@/store";
 
 const tvShowsStore = useTVShowsStore();
 

@@ -1,8 +1,8 @@
 <script setup>
 import SearchBar from "@/components/basic/SearchBar.vue";
 import RatingBar from "@/components/basic/RatingBar.vue";
-import TagsBar from '@/components/basic/TagsBar.vue';
-import { useTVShowsStore } from '@/store';
+import TagsBar from "@/components/basic/TagsBar.vue";
+import { useTVShowsStore } from "@/store";
 
 const tvShowsStore = useTVShowsStore();
 const filteredGenres = tvShowsStore.filter.genres;

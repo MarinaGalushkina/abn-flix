@@ -1,7 +1,7 @@
 <script setup>
 import TVShowSlide from "@/components/TVShowSlide.vue";
-defineProps(['tvShows']);
-defineEmits(['show:details'])
+defineProps(["tvShows"]);
+defineEmits(["show:details"])
 </script>
 
 <template>

@@ -9,7 +9,7 @@ defineProps({
     default: "1.5rem",
   }
 });
-defineEmits(['update:rating'])
+defineEmits(["update:rating"])
 </script>
 
 <template>

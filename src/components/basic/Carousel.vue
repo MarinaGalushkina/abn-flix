@@ -1,7 +1,7 @@
 <script setup>
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Navigation } from "vue3-carousel";
-defineProps(['slides', 'id']);
+defineProps(["slides", "id"]);
 
 const breakpoints = {
   // 350px and up

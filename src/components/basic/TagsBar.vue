@@ -1,7 +1,7 @@
 <script setup>
 import Tag from "@/components/basic/Tag.vue";
-defineProps(['tags', 'activeTags']);
-defineEmits(['update:activeTags'])
+defineProps(["tags", "activeTags"]);
+defineEmits(["update:activeTags"])
 </script>
 
 <template>
