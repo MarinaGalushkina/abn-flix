@@ -1,4 +1,4 @@
-The project is running on [https://d8g4itrdnrhty.cloudfront.net/](ABN.FLIX)
+The project is running on [https://d8g4itrdnrhty.cloudfront.net/](https://d8g4itrdnrhty.cloudfront.net/)
 
 If you wish to run the project on your local machine:
 
