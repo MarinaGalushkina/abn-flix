@@ -26,8 +26,6 @@ jobs:
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-region: EU (Frankfurt) eu-central-1
 
       - name: Copy files with the AWS CLI
         run: aws S3 sync . s3://${{ secrets.AWS_S3_BUCKET_NAME }}
